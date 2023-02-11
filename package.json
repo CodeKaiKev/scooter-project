@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/MultiverseLearningProducts/scooter-project-solution#readme",
   "dependencies": {
-    "jest": "27.5.1"
+    "jest": "^27.5.1"
   }
 }

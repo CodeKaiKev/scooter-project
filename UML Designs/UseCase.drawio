@@ -1,0 +1,160 @@
+<mxfile host="65bd71144e">
+    <diagram id="skJ9CsgJEPBLy5L5YRoD" name="Page-1">
+        <mxGraphModel dx="1388" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;p style=&quot;line-height: 140%; font-size: 15px;&quot;&gt;Scooter App&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=5;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;spacingBottom=-40;spacingTop=0;fillColor=none;shadow=0;glass=0;strokeWidth=5;strokeColor=#FFFFFF;fontColor=default;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="50" width="860" height="1170" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Scooter" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=15;fontColor=default;fillColor=none;verticalAlign=top;fontStyle=5" parent="1" vertex="1">
+                    <mxGeometry x="160" y="230" width="760" height="750" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Station" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;verticalAlign=top;fontStyle=5" parent="1" vertex="1">
+                    <mxGeometry x="270" y="480" width="620" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;fontColor=default;fillColor=#008a00;strokeColor=#005700;strokeWidth=3;endArrow=none;endFill=0;" parent="1" source="3" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=15;fontColor=default;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="3" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=15;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="3" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="3" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;html=1;entryX=-0.003;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="3" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="280" width="60" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=15;fontColor=default;fillColor=#008a00;" parent="1" source="6" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Log In&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="110" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Verify Password &amp;amp; Username&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=14;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="130" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;dashed=1;dashPattern=12 12;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=15;fontColor=default;fillColor=#008a00;" parent="1" source="12" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Log in Error&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=14;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="90" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=15;fontColor=default;fillColor=#008a00;endArrow=none;endFill=0;" parent="1" source="17" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Log Out&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="170" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=0.04;entryY=0.697;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=15;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;dashed=1;dashPattern=12 12;" parent="1" source="19" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="19" target="60" edge="1">
+                    <mxGeometry x="0.6912" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Rent Scooter" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=15;fontColor=default;fillColor=none;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="220" y="290" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Throw Error (Scooter needs charge/repair&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=14;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="280" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;dashed=1;dashPattern=12 12;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=15;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="26" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Check scooter charged 20% and not broken&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=14;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="380" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=15;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="28" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Check out scooter to user" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=15;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="195" y="360" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=0.686;entryY=0.046;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="36" target="55" edge="1">
+                    <mxGeometry x="0.446" y="-8" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="36" target="62" edge="1">
+                    <mxGeometry x="0.4704" y="-10" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Dock Scooter at station" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="310" y="520" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;dashed=1;dashPattern=12 12;" parent="1" source="38" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Clear out the user." style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="620" y="530" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="recharge scooter incrementally to 100" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="605" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;dashed=1;dashPattern=12 12;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="42" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="log new percentage now and then" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="730" y="590" width="140" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Repair, 5 second interval and log repair compelte" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="580" width="105" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Scooter Company" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1170" y="830" width="60" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="51" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="51" target="55" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Create a new scooter" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="590" y="880" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;dashed=1;dashPattern=12 12;" parent="1" source="53" target="51" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="add to station's scooter list" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="730" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Error no such station" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="860" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="print out registered users, stations &amp;amp; scooters" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="845" width="120" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="Scooter already rented" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="300" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="error scooter at station" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="710" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=none;html=1;entryX=0.077;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=12 12;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;" parent="1" source="64" target="68" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Register User" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="195" y="1020" width="225" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#005700;strokeWidth=3;fontFamily=Times New Roman;fontSize=16;fontColor=default;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#008a00;dashed=1;dashPattern=12 12;" parent="1" source="66" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Check user not registersed and 18+, return user and register." style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="560" y="1000" width="290" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="Error: already registered or too young to register" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Times New Roman;fontSize=16;fontColor=default;fillColor=none;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="500" y="1100" width="250" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
