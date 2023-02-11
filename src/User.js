@@ -15,7 +15,7 @@ class User {
       //log in user
       this.loggedIn = true;
     } else {
-      throw new Error("incorrect password")
+      throw new Error("incorrect password");
     }
   }
 
