@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="1L0tDEwGsyfDg6gZBXYQ" name="Page-1">
-        <mxGraphModel dx="833" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="933" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="160" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="690" y="160" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="80" y="160" width="120" height="80" as="geometry"/>
@@ -14,7 +14,7 @@
                     <mxGeometry x="480" y="160" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="Scooter" style="shape=mxgraph.signs.transportation.scooter;html=1;pointerEvents=1;fillColor=#FFFFFF;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="305.25" y="170" width="69.5" height="42" as="geometry"/>
+                    <mxGeometry x="715.25" y="169" width="69.5" height="42" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="Scooter App" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;fillColor=#FFFFFF;" vertex="1" parent="1">
                     <mxGeometry x="525" y="170" width="25" height="40" as="geometry"/>
@@ -24,20 +24,154 @@
                 </mxCell>
                 <mxCell id="14" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="3">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="140" y="480" as="sourcePoint"/>
+                        <mxPoint x="140" y="720" as="sourcePoint"/>
                         <mxPoint x="450" y="270" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+                <mxCell id="15" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="31" target="2">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="339.5" y="480" as="sourcePoint"/>
-                        <mxPoint x="339.5" y="240" as="targetPoint"/>
+                        <mxPoint x="750" y="390" as="sourcePoint"/>
+                        <mxPoint x="699.0899999999999" y="240" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="17" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="537" y="480" as="sourcePoint"/>
+                        <mxPoint x="537" y="720" as="sourcePoint"/>
                         <mxPoint x="537" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Login User" style="endArrow=classic;html=1;fontFamily=Times New Roman;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="390" as="sourcePoint"/>
+                        <mxPoint x="540" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Logout User" style="endArrow=classic;html=1;fontFamily=Times New Roman;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="370" as="sourcePoint"/>
+                        <mxPoint x="140" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Incorrect Password/Username" style="endArrow=none;dashed=1;html=1;fontFamily=Times New Roman;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="350" as="sourcePoint"/>
+                        <mxPoint x="540" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="User Cannot be found" style="endArrow=none;dashed=1;html=1;fontFamily=Times New Roman;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry x="-0.027" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="390" as="sourcePoint"/>
+                        <mxPoint x="140" y="390" as="targetPoint"/>
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="&lt;font color=&quot;#000000&quot;&gt;Scooter Company&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=solid;strokeColor=#FFFFFF;strokeWidth=2;fontFamily=Times New Roman;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="491.25" y="410" width="92.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;font color=&quot;#ffffff&quot;&gt;Create Scooter&lt;/font&gt;" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontColor=#000000;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="580" y="420" as="sourcePoint"/>
+                        <mxPoint x="730" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Error incorrect station" style="endArrow=none;dashed=1;html=1;fontFamily=Times New Roman;fontColor=#FFFFFF;startArrow=classic;startFill=0;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="580" y="440" as="sourcePoint"/>
+                        <mxPoint x="720" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="Login User" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="330" as="sourcePoint"/>
+                        <mxPoint x="540" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="Register User" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="270" as="sourcePoint"/>
+                        <mxPoint x="140" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="Error if already registered or too young to register" style="endArrow=none;dashed=1;html=1;fontFamily=Times New Roman;startArrow=classic;startFill=1;" edge="1" parent="1">
+                    <mxGeometry x="-0.027" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="290" as="sourcePoint"/>
+                        <mxPoint x="140" y="290" as="targetPoint"/>
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="31">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="750" y="720" as="sourcePoint"/>
+                        <mxPoint x="699.0899999999999" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="&lt;font color=&quot;#000000&quot;&gt;Station&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=solid;strokeColor=#FFFFFF;strokeWidth=2;fontFamily=Times New Roman;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="400" width="40" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;font color=&quot;#ffffff&quot;&gt;Rent Scooter&lt;/font&gt;" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontColor=#000000;exitX=-0.096;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="31">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="470" y="420" as="sourcePoint"/>
+                        <mxPoint x="140" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Error if scooter already rented" style="endArrow=none;dashed=1;html=1;fontFamily=Times New Roman;startArrow=classic;startFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="31">
+                    <mxGeometry x="-0.027" width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="490.0000000000001" as="sourcePoint"/>
+                        <mxPoint x="140" y="490.0000000000001" as="targetPoint"/>
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="510" as="sourcePoint"/>
+                        <mxPoint x="730" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="Remove scooter from station" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Times New Roman;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="38">
+                    <mxGeometry x="-0.1807" y="-3" relative="1" as="geometry">
+                        <mxPoint x="13" y="-3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="Dock Scooter" style="endArrow=classic;html=1;fontFamily=Times New Roman;fontColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="530" as="sourcePoint"/>
+                        <mxPoint x="730" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="Error if no such station or scooter already at station" style="endArrow=none;dashed=1;html=1;fontFamily=Times New Roman;startArrow=classic;startFill=1;entryX=-0.096;entryY=0.826;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="31">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="549.0000000000001" as="sourcePoint"/>
+                        <mxPoint x="540" y="549.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="Print()" style="curved=1;endArrow=classic;html=1;fontFamily=Times New Roman;fontColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="600" as="sourcePoint"/>
+                        <mxPoint x="540" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="480" y="600"/>
+                            <mxPoint x="530" y="650"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="Repair" style="curved=1;endArrow=classic;html=1;fontFamily=Times New Roman;fontColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="750" y="600" as="sourcePoint"/>
+                        <mxPoint x="750" y="600" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="690" y="600"/>
+                            <mxPoint x="740" y="650"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Recharge" style="curved=1;endArrow=classic;html=1;fontFamily=Times New Roman;fontColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="750" y="650" as="sourcePoint"/>
+                        <mxPoint x="750" y="650" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="690" y="650"/>
+                            <mxPoint x="740" y="700"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
             </root>
