@@ -32,7 +32,7 @@ describe('Registering the user into the system testing', () => {
         const logSpy = jest.spyOn(console, 'log');
         
         scooterApp.registerUser("John005", "Xycj13£@", 30);
-        expect(logSpy).toHaveBeenCalledWith("user has been registered");
+        expect(logSpy).toHaveBeenCalledWith(`user John005 has been registered`);
        
         //Checking by userName is registered
         expect(scooterApp.registeredUsers).toHaveProperty("John005");
@@ -55,7 +55,7 @@ describe('Registering the user into the system testing', () => {
         scooterApp.registerUser("Bond007", "1234", 22);
         expect(() => {
                 scooterApp.registerUser("Bond007", "1234", 22)
-        }).toThrow("already registered");
+        }).toThrow("Bond007 already registered");
     })
 })
 
@@ -78,7 +78,7 @@ describe('Registering the user into the system testing', () => {
             const logSpy2 = jest.spyOn(console, 'log');
             
             scooterApp.loginUser("John005", "Xycj13£@");
-            expect(logSpy2).toHaveBeenCalledWith("user has been logged in");
+            expect(logSpy2).toHaveBeenCalledWith("user John005 has been logged in");
             expect(scooterApp.registeredUsers["John005"].loggedIn).toBe(true);
             //console.log(scooterApp.registeredUsers["John005"].loggedIn);
         })
@@ -91,27 +91,38 @@ describe('Registering the user into the system testing', () => {
         test('checking if we cannot find the user', () => {
             expect(() => {scooterApp.logoutUser("Jahn005")}).toThrow("no such user is logged in");
         })
+        test('testing whether we can an catch error logging out a user not logged in', () => {
+            console.log(scooterApp.registeredUsers["Bond007"].loggedIn);
+            expect(() => {scooterApp.logoutUser("Bond007")}).toThrow("no such user is logged in");
+        })
 
-        //Successfully logged in
+        //Successfully logged out
         test('testing succesfully if we can logout', () => {
             const logSpy = jest.spyOn(console, 'log');
             scooterApp.logoutUser("John005")
             expect(scooterApp.registeredUsers["John005"].loggedIn).toBe(false);
-            expect(logSpy).toHaveBeenCalledWith("user is logged out");
+            expect(logSpy).toHaveBeenCalledWith("user John005 is logged out");
+
             
-        })
+            scooterApp.loginUser("Marx011", "H&9£IjdE");
+            
+        });
+
+      
     });
     
 // Create scooter
 describe('Creating scooters', () => {
     test('creating the scooter for station', () => {
         //Checking right serial numbers as they are created
+        const logSpy = jest.spyOn(console, 'log');
         scooterApp.createScooter("London");
         expect(scooterApp.stations["London"][0].serial).toBe(1);
         scooterApp.createScooter("London");
         expect(scooterApp.stations["London"][1].serial).toBe(2);
         scooterApp.createScooter("Tokyo");
         expect(scooterApp.stations["Tokyo"][0].serial).toBe(3);
+        expect(logSpy).toHaveBeenCalledWith(`created new scooter #${scooterApp.stations["Tokyo"][0].serial}`);
         //Checking length of arrays
         expect(scooterApp.stations["London"].length).toBe(2);
         expect(scooterApp.stations["Tokyo"].length).toBe(1);
@@ -145,7 +156,7 @@ describe("Testing whether the scooter is already rented", () => {
         //scooterApp.print();
         expect(() => {
             scooterApp.rentScooter(scooterApp.stations["InUse"][0], scooterApp.registeredUsers["John005"]);
-         }).toThrow("scooter already rented");
+         }).toThrow(`scooter #${scooterApp.stations["InUse"][0].serial} already rented`);
     })
 
     test("Testing able to rent scooter", () => {
@@ -168,7 +179,7 @@ describe("Scooter app testing dock method", () => {
         expect(() => {scooterApp.dockScooter(scooterApp.stations["InUse"][0], "Berlin");}).toThrow("no such station");
     })
     test("Testing if scooter already at station", () => {
-        expect(() => {scooterApp.dockScooter(scooterApp.stations["London"][0], "London");}).toThrow("scooter already at station");
+        expect(() => {scooterApp.dockScooter(scooterApp.stations["London"][0], "London");}).toThrow(`scooter #${scooterApp.stations["London"][0].serial} already at station London`);
     })
     test("Checking whether we can dock a scooter at the station", () => {
         const logSpy = jest.spyOn(console, 'log');
@@ -179,7 +190,7 @@ describe("Scooter app testing dock method", () => {
         scooterApp.dockScooter(scooterApp.stations["InUse"][0], "Tokyo");
         let endArray = scooterApp.stations["Tokyo"].length -1;
         expect(scooterApp.stations["Tokyo"][endArray].serial).toEqual(checkSerial);
-        expect(logSpy).toHaveBeenCalledWith("scooter is docked");
+        expect(logSpy).toHaveBeenCalledWith(`scooter #${scooterApp.stations["Tokyo"][endArray].serial} is docked`);
     })
 })
 

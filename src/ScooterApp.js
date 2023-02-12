@@ -20,13 +20,13 @@ class ScooterApp {
       if((!(this.registeredUsers.hasOwnProperty(username))) && (age >= 18)) {
         //We are registering a new user
         this.registeredUsers[username] = new User(username, password, age);
-        console.log("user has been registered");
+        console.log(`user ${username} has been registered`);
         return this.registeredUsers[username];
         //Error checking 
       } else if (age < 18) {
         throw new Error("too young to register.");
       } else {
-        throw new Error("already registered");
+        throw new Error(`${username} already registered`);
       } 
  
   }
@@ -38,17 +38,17 @@ class ScooterApp {
     } else {
       this.registeredUsers[username].login(password);
       //console.log(this.registeredUsers[username].loggedIn);
-      console.log("user has been logged in");
+      console.log(`user ${username} has been logged in`);
     } 
   }
 
   //Log out of app
   logoutUser(username)  { 
-    if(!(this.registeredUsers.hasOwnProperty(username))) {
+    if((!(this.registeredUsers.hasOwnProperty(username))) || (this.registeredUsers[username].loggedIn === false)) {
       throw new Error("no such user is logged in");
     } else {
       this.registeredUsers[username].logout();
-      console.log("user is logged out");
+      console.log(`user ${username} is logged out`);
     }
   }
 
@@ -57,7 +57,7 @@ class ScooterApp {
     try {
       const scooter = new Scooter(station);
       this.stations[station].push(scooter);
-      console.log("created new scooter");
+      console.log(`created new scooter #${scooter.serial}`);
     } catch(err) {
       throw new Error("no such station")
     }
@@ -68,7 +68,7 @@ class ScooterApp {
     if(!(this.stations.hasOwnProperty(station))) {
       throw new Error("no such station");
     } else if (scooter.station === station) {
-      throw new Error("scooter already at station");
+      throw new Error(`scooter #${scooter.serial} already at station ${station}`);
     } else {
       let checkSerialNumber = scooter.serial;
       this.stations[station].push(scooter);
@@ -78,14 +78,14 @@ class ScooterApp {
           this.stations["InUse"].pop(i);
         }
       }
-      console.log("scooter is docked");
+      console.log(`scooter #${scooter.serial} is docked`);
     }
   }
 
   //renting a scooter
   rentScooter(scooter, User) {
     if(scooter.station === null) {
-      throw new Error("scooter already rented");
+      throw new Error(`scooter #${scooter.serial} already rented`);
     } else {
       if(scooter.rent()) {
         let checkSerialNumber = scooter.serial;
@@ -98,7 +98,7 @@ class ScooterApp {
         scooter.station = null;
         this.stations["InUse"].push(scooter);
         console.log("CheckingABZ", scooter);
-        console.log("scooter is rented");
+        console.log(`scooter #${scooter.serial} is rented`);
       }
       //Removing scoooter from array of station
       //this.stations[scooter.station].splice(this.stations[scooter.station].indexOf(scooter),1);
